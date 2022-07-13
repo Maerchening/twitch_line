@@ -5,7 +5,7 @@ import time
 client_id = ""
 client_secret = ""
 
-Twitch_ID = 'corncorn02'
+Twitch_ID = ''
 ment = "방송켰다~ 당장 달려와~"
 
 oauth_key = requests.post(
