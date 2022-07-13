@@ -2,8 +2,8 @@ import requests
 from json import loads
 import time
 
-client_id = "4tn3n6xydw7yqfg5imjga6p445xc98"
-client_secret = "911x9clypq99cam4wox85qo7bomf03"
+client_id = ""
+client_secret = ""
 
 Twitch_ID = 'corncorn02'
 ment = "방송켰다~ 당장 달려와~"
@@ -22,7 +22,7 @@ response_channel = requests.get('https://api.twitch.tv/helix/streams?user_login=
 while True:
     try:
         TARGET_URL = 'https://notify-api.line.me/api/notify'
-        token = 'Py3TBVbqUCctCdCYFCDTKGAtmev1ZmBY7YSQucRdDKA'
+        token = ''
         headers={
             'Authorization': 'Bearer ' + token
         }
